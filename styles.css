@@ -1,0 +1,58 @@
+div{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+}
+
+#board{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    font-family: sans-serif;
+    padding:50px;
+    display: block;
+    margin-right: auto;
+    width: fit-content;
+    margin-left: auto;
+}
+.winner{
+    color:red;
+}
+#restart-button{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: -60px;
+
+    padding:20px;
+    font-size: 20px;
+}
+
+#announcer{
+    position: fixed;
+    top: 20vh;
+    right: 25vw;
+    width: 50%;
+    height: 40vh;
+    background-color: rgba(240, 248, 255, 0.847);
+    display: none;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap:40px;
+}
+#restart{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    margin-top: -40px;
+
+    padding:10px;
+    font-size: 20px;
+}
